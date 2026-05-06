@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicios HTML y CSS completos</title>
+  <link rel="stylesheet" href="tallerpractico.css">
+</head>
+<body>
+    <h1>Ejercicios HTML y CSS completos</h1>
+ <table>
+    <tr>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miércoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+      <th>Sábado</th>
+      <th>Domingo</th>
+    </tr>
+    <tr>
+      <td>Arroz con pollo</td>
+      <td>Carne asada</td>
+      <td>Pasta</td>
+      <td>Sopa</td>
+      <td>Pescado</td>
+      <td>Pizza</td>
+      <td>Bandeja paisa</td>
+    </tr>
+  </table>
+
+  <header>
+    <h1>COMIDA</h1>
+  </header>
+
+  <main>
+    <p><em>DESAYUNO:</em>El desayuno es la primera comida del día, consumida al levantarse para romper el ayuno nocturno</p>
+    <p><em>ALMUERZO:</em>El almuerzo es la comida que se realiza a mitad del día, generalmente entre las 12:00 y las 14:00 horas, siendo en muchas culturas la comida más sustanciosa y completa. Sirve para reponer energía tras la mañana y suele incluir proteínas, carbohidratos, ensalada y bebida.</p>
+    <p><em>CENA:</em>La cena es la última comida del día, realizada generalmente al atardecer o por la noche. Se caracteriza por ser más ligera que el almuerzo para facilitar la digestión y el descanso, e incluye alimentos variados como verduras, proteínas magras y lácteos.</p>
+  </main>
+
+  <aside>
+    <p>La comida no solo sirve para aportar energía, sino que también tiene un papel importante en la salud y el bienestar general. Una alimentación equilibrada ayuda a prevenir enfermedades, mantener un peso adecuado y mejorar el funcionamiento del cuerpo y la mente.</p>
+    <p>Además, la comida también tiene un componente social y cultural. Muchas veces se comparte en familia o con amigos, y cada cultura tiene sus propios platos tradicionales que forman parte de su identidad.</p>
+  </aside>
+
+  <footer>
+    <p>©️ 2020</p>
+  </footer>
+
+
+  <div class="pregunta">
+    <h2>Punto 3: Coloreando enlaces</h2>
+
+    <p><strong>Pregunta:</strong> Si aplicamos color rojo a un &lt;aside&gt; con clase .links, ¿qué quedará en rojo?</p>
+
+    <div class="respuesta">
+      <strong>Respuesta:</strong> Todo el texto dentro del aside, incluyendo los enlaces, porque el color se hereda.
+      Sin embargo, si los enlaces tienen un color propio definido, ese estilo puede sobrescribir la herencia.
+    </div>
+  </div>
+
+
+  <div class="pregunta">
+    <h2>Punto 5: Enlaces y CSS</h2>
+
+    <p><strong>Pregunta 1:</strong> ¿Por qué los enlaces son verdes y no rojos?</p>
+    <div class="respuesta">
+      Porque existe una regla CSS específica para los enlaces que tiene más prioridad que la herencia.
+    </div>
+
+    <p><strong>Pregunta 2:</strong> ¿Cómo hacer que los enlaces sean rojos?</p>
+    <div class="respuesta">
+      Aplicando: <code>a { color: red; }</code>
+    </div>
+
+    <p><strong>Pregunta 3:</strong> ¿Qué pasa si cambiamos &lt;ul&gt; y &lt;li&gt; por &lt;div&gt;?</p>
+    <div class="respuesta">
+      Se pierde la semántica de lista, aunque visualmente puede verse igual.
+    </div>
+
+    <p><strong>Pregunta 4:</strong> ¿Cómo rehacer el CSS sin tocar el original?</p>
+    <div class="respuesta">
+      Usando clases nuevas para reemplazar los selectores sin modificar el código base.
+    </div>
+  </div>
+
+</body>
+</html>
